@@ -1,16 +1,36 @@
-# expense_tracker
+# 💸 Expense Tracker
 
-A new Flutter project.
+A simple, clean, and interactive **Flutter Expense Tracker** app to help users log their daily expenses, view summaries by category, and visualize data with a pie chart.
 
-## Getting Started
+![Flutter Expense Tracker Screenshot](https://via.placeholder.com/800x400?text=App+Screenshot)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Add and delete daily expenses with amount and description
+- View real-time summary of expenses by category
+- Beautiful pie chart visualization using `fl_chart`
+- Persistent local storage with `Hive`
+- Works on Android, Web, and Desktop (if configured)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter** (UI framework)
+- **Hive** (local NoSQL database)
+- **Hive Flutter** (integration with Flutter)
+- **fl_chart** (for drawing pie chart)
+
+---
+
+## 📦 Dependencies
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  fl_chart: ^0.45.1
