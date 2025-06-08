@@ -1,0 +1,16 @@
+name: expense_tracker
+description: A simple Flutter app to track expenses with pie chart summary.
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  fl_chart: ^0.63.0
+
+flutter:
+  uses-material-design: true
